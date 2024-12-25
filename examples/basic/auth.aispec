@@ -1,0 +1,16 @@
+Feature: UserAuth {
+  What:
+    - "Handle user registration"
+    - "Process login requests"
+    - "Manage session tokens"
+
+  Boundaries:
+    - "Max 5 login attempts/hour"
+    - "Passwords min 8 chars"
+    - "Session expires 24h"
+
+  Success:
+    - "User registered successfully"
+    - "Login completes < 200ms"
+    - "Failed attempts blocked"
+}

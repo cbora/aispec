@@ -1,0 +1,77 @@
+Feature: PaymentProcessing {
+  What:
+    - "Handle credit card payments"
+    - "Store transaction logs"
+    - "Send email receipts"
+
+  Boundaries:
+    - "Transactions under $10,000"
+    - "3 retries on network error"
+    - "Timeout after 30s"
+  
+  Success:
+    - "Transaction processed"
+    - "Receipt emailed"
+    - "Latency < 1s"
+
+  Flow:
+    - name: "ValidatePayment"
+      entry_point: true
+      steps:
+        - "Check card number"
+        - "Verify expiry"
+        - "Validate CVV"
+      outcomes:
+        success:
+          - "Card data is valid"
+        failure:
+          - "Invalid card triggers error"
+      next:
+        success: "ChargeFlow"
+        failure: "ErrorFlow"
+    
+    - name: "ChargeFlow"
+      steps:
+        - "Charge card via PaymentGateway"
+        - "Record attempt timestamp"
+      next:
+        success: "RecordFlow"
+        failure: "RetryFlow"
+    
+    - name: "RecordFlow"
+      steps:
+        - "Write transaction to DB"
+        - "Send receipt email"
+        - "Update user history"
+    
+    - name: "ErrorFlow"
+      steps:
+        - "Log error details"
+        - "Return error to user"
+        - "No DB write"
+    
+    - name: "RetryFlow"
+      steps:
+        - "Attempt up to 2 additional charges"
+        - "Record each attempt"
+      next:
+        success: "RecordFlow"
+        failure: "ErrorFlow"
+
+  Technical:
+    framework: "Django"
+    payment_gateway: "Stripe"
+    database: "PostgreSQL"
+    queue: "Redis"
+    
+  Dependencies:
+    required:
+      - "stripe"
+      - "django-payments"
+      - "celery"
+    
+  Security:
+    encryption: "PCI compliant"
+    audit: "Full transaction logging"
+    rate_limits: "100/minute per user"
+}

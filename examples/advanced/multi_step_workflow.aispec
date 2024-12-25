@@ -1,0 +1,52 @@
+Feature: DocumentApproval {
+  What:
+    - "Handle document submissions"
+    - "Route for approvals"
+    - "Track workflow status"
+
+  Boundaries:
+    - "Max file size 20MB"
+    - "PDF format only"
+    - "Max 5 approvers"
+
+  Success:
+    - "Document processed"
+    - "All approvers notified"
+    - "Status tracked accurately"
+
+  Flow:
+    - name: "SubmissionFlow"
+      entry_point: true
+      steps:
+        - "Validate document"
+        - "Store in system"
+        - "Initialize workflow"
+      next:
+        success: "RoutingFlow"
+        failure: "ValidationError"
+
+    - name: "RoutingFlow"
+      steps:
+        - "Identify approvers"
+        - "Set sequence"
+        - "Send notifications"
+      next:
+        success: "ApprovalFlow"
+        failure: "RoutingError"
+
+    - name: "ApprovalFlow"
+      steps:
+        - "Collect responses"
+        - "Track progress"
+        - "Check completion"
+      next:
+        approved: "CompletionFlow"
+        rejected: "RejectionFlow"
+        pending: "RemindersFlow"
+
+  Technical:
+    framework: "FastAPI"
+    storage: "S3"
+    database: "PostgreSQL"
+    notifications: "SES"
+}

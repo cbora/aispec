@@ -74,6 +74,12 @@ Feature: Name {
 }
 ```
 
+## Examples
+See the `examples/` directory for:
+- Basic usage patterns
+- Advanced features including Flow specifications
+- Real-world implementation scenarios
+
 ## Theory
 AISpec's effectiveness comes from its ability to reduce the solution space through structured constraints. For example:
 

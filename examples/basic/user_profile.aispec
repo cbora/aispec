@@ -1,0 +1,21 @@
+Feature: UserProfile {
+  What:
+    - "Store user information"
+    - "Handle profile updates"
+    - "Manage privacy settings"
+
+  Boundaries:
+    - "Image size < 5MB"
+    - "Rate limit: 10 updates/hour"
+    - "Fields sanitized"
+
+  Success:
+    - "Profile saved successfully"
+    - "Updates reflect immediately"
+    - "Privacy settings enforced"
+
+  Technical:
+    storage: "PostgreSQL"
+    cache: "Redis"
+    uploads: "S3"
+}
