@@ -111,6 +111,9 @@ Instead of manually verifying AI-generated code, AISpec provides a higher abstra
 - Consistent implementation patterns
 
 ## AISpec Meta Prompt
+> Pro Tip: Copy this entire AISpec Meta Prompt into your preferred AI assistant's system prompt or use it as a base template for your chatbot implementations. The multiplicative constraint pattern will dramatically improve output quality and consistency.
+
+> Usage: "Give me prompt to implement a chat page for a chatbot application"
 ```bash
 # AISpec Meta Prompt
 

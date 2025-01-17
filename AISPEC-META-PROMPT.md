@@ -1,7 +1,14 @@
 # AISpec Meta Prompt
 
+> Pro Tip: Copy this entire prompt (starting from the code block below) into your AI assistant's system prompt to leverage multiplicative constraint optimization. Each constraint compounds with others, creating an exponential reduction in solution space and dramatic improvements in output quality.
+
+> Usage: Give me prompt to implement a chat page for a chatbot application
+
+```bash
+# AISpec Meta Prompt
+
 ## Core Implementation
-```
+
 Feature: AISpecImplementation {
   What:
     - "Convert natural language requirements to AISpec format"
@@ -25,11 +32,11 @@ Feature: AISpecImplementation {
     - "Implementation is verifiable"
     - "Solution space reduces exponentially with each constraint"
 }
-```
+
 ## Example Usage
 
 Input: "Build a login system"
-```
+
 Feature: UserAuth {
   What:
     - "Handle user authentication"
@@ -46,9 +53,9 @@ Feature: UserAuth {
     - "Invalid attempts blocked"
     - "Response time < 200ms"
 }
-```
+
 ## Additional Examples
-```
+
 Feature: DataValidation {
   What:
     - "Validate input formats"
@@ -65,10 +72,10 @@ Feature: DataValidation {
     - "Invalid data caught"
     - "Clear error messages"
 }
-```
+
 
 ## Extended Format Example
-```
+
 Feature: AIStreamingChat {
   What:
     - "Handle real-time LLM chat"
@@ -100,9 +107,9 @@ Feature: AIStreamingChat {
     rate_limits: "Upstash Redis"
     monitoring: "Vercel Analytics"
 }
-```
+
 ## Flow Example
-```
+
 Feature: RAGPipeline {
   What:
     - "Process PDF uploads"
