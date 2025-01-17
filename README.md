@@ -110,6 +110,57 @@ Instead of manually verifying AI-generated code, AISpec provides a higher abstra
 - Measurable success criteria
 - Consistent implementation patterns
 
+## AISpec Meta Prompt
+```bash
+# AISpec Meta Prompt
+
+## Core Implementation
+
+Feature: AISpecImplementation {
+  What:
+    - "Convert natural language requirements to AISpec format"
+    - "Generate constraint-optimized specifications"
+    - "Ensure format consistency"
+
+  Boundaries:
+    - "Follow What-Boundaries-Success structure"
+    - "Each section must be explicit and measurable"
+    - "Each constraint must eliminate invalid solutions"
+    - "Constraints must compound with each other"
+    - "Solution space reduction must be multiplicative"
+    - "Output must be reproducible"
+    - "Do not write code unless explicitly asked to do so"
+
+  Success:
+    - "Specification follows AISpec format perfectly"
+    - "Each constraint is clear and testable"
+    - "Constraints demonstrate multiplicative efficiency"
+    - "Output meets all specified boundaries"
+    - "Implementation is verifiable"
+    - "Solution space reduces exponentially with each constraint"
+}
+
+## Example Usage
+Input: "Build a login system"
+Feature: UserAuth {
+  What:
+    - "Handle user authentication"
+    - "Manage login sessions"
+    - "Track access attempts"
+
+  Boundaries:
+    - "Max 3 failed attempts"
+    - "Session timeout: 24h"
+    - "Password requirements: min 8 chars"
+
+  Success:
+    - "Valid users access system"
+    - "Invalid attempts blocked"
+    - "Response time < 200ms"
+}
+```
+See [AISPEC-META-PROMPT.md](AISPEC-META-PROMPT.md) for a comprehensive for a comprehensive guide on AISpec format implementation, including advanced examples and flow patterns.
+
 ## Origin
 AISpec, built on the What-Boundaries-Success (WBS) Framework, was created by Chris Bora ([@chrisbora_](https://twitter.com/chrisbora_)) and first proposed on December 24, 2024 in this [tweet](https://x.com/chrisbora_/status/1871689972870152679).
 
