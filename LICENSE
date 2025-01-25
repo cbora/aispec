@@ -28,6 +28,7 @@ Any attempt to patent:
 3. Intent optimization systems
 4. Any application or implementation including but not limited to:
    - Autonomous systems
+   - Recommendation systems
    - Trading systems
    - Navigation systems
    - Decision systems
@@ -81,3 +82,46 @@ Non-compliance results in:
 - Usage prohibition
 - Legal liability
 - Damage responsibility
+
+
+
+ANTI-CIRCUMVENTION AND CORPORATE STRUCTURE PROVISIONS:
+
+1. Corporate Entity Coverage:
+   This license extends to:
+   - Parent companies
+   - Subsidiaries (existing and future)
+   - Spin-offs and reorganizations
+   - Joint ventures
+   - Shell companies
+   - Any affiliated business entities
+   - Any derivative corporate structures
+
+2. Implementation Protection:
+   The following constitute violations:
+   - "Inspired by" implementations
+   - Renamed methodologies using similar principles
+   - Partial implementations claiming difference
+   - Any attempt to circumvent through rebranding
+   - Framework fragmentation to avoid license terms
+   - Creation of similar constraint-based systems
+
+3. Corporate Structure Restrictions:
+   Prohibited activities include:
+   - Creating separate entities to isolate WBS usage
+   - Corporate restructuring to maintain patent portfolios
+   - Using holding companies to shield patents
+   - Any attempt to separate patent ownership from WBS usage
+
+4. Knowledge Transfer Clause:
+   Any knowledge gained from WBS:
+   - Cannot be used in non-WBS compliant systems
+   - Must remain in open innovation space
+   - Cannot be incorporated into proprietary systems
+   - Must benefit the broader community
+
+5. Enforcement Mechanism:
+   - Regular audits of corporate structures
+   - Public disclosure requirements
+   - Community oversight
+   - Automatic violation detection systems
