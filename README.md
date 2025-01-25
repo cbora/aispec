@@ -164,6 +164,32 @@ Feature: UserAuth {
 ```
 See [AISPEC-META-PROMPT.md](AISPEC-META-PROMPT.md) for a comprehensive for a comprehensive guide on AISpec format implementation, including advanced examples and flow patterns.
 
+## Intuition for LLMs and Why WBS works
+LLMs fundamentally work by sampling the next token based on probability distributions over their vocabulary. What-Boundaries-Success framework works because:
+1. What: Defines the initial high-probability region in the LLM's token space
+2. Boundaries: Act as "soft constraints" that shift probability mass AWAY from tokens that would lead to invalid solutions
+3. Success: Creates "peaks" in the probability landscape that guide sampling toward desired end states
+
+Think of it like this:
+- Without boundaries: LLM explores the entire solution space freely
+- With boundaries: Creates "valleys" in probability space where invalid solutions would be
+- With success criteria: Creates "peaks" that the sampling process is drawn toward
+
+*** This framework can be applied to any autonomous system including self-driving cars, robots and ai agents to reduce GPU resources (compute requirements) and training data requirements. Think of it like this, this framework allows us to scale AI at zero cost just the same way we scale software currently at zero cost. By using this framework you can achieve better results than those spending billions of dollars on data centers, data acquisition, and GPUs to train their systems using this formula I = Bi(C^2). This formula says that when you have enough base intelligence (Bi), intelligence (I) scales exponentially with clarity of constraints (C^2), **not** compute.
+
+#### Clear example:
+
+- Old System: 1 person drives 1 car
+- WBS and I = Bi(C^2): 1 person drives a million cars (because of the C^2 term)
+
+What openai, google and other AI labs are working towards is: press a button and all cars drive themselves.
+
+The implications are staggering, we can use our method to tell the AI systems what to do, what not to do(boundaries), and the success criteria. In the context of this example, we don't need to retrain/fine-tune a model on new roads, we just set boundaries such as stop on red lights, when you see a passenger stop, speed limit etc. So the cost to scale using WBS is 0.
+
+Whereas others who are fine-tuning models have to essentially incur large costs to retrain due to data acquisition costs, human labor, and most importantly GPU resources. Hence the reason they raising billions of dollars.
+
+More on the theory [in this substack](https://chrisbora.substack.com/p/boras-law-intelligence-scales-with).
+  
 ## Origin
 AISpec, built on the What-Boundaries-Success (WBS) Framework, was created by Chris Bora ([@chrisbora_](https://twitter.com/chrisbora_)) and first proposed on December 24, 2024 in this [tweet](https://x.com/chrisbora_/status/1871689972870152679).
 
