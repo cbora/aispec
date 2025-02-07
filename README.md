@@ -2,7 +2,7 @@
 
 A specification language for AI-first development that shifts focus from implementation to intent through structured solution space reduction.
 
-Built on the What-Boundaries-Success (WBS) Framework, AISpec provides a practical implementation of systematic constraint engineering for AI systems.
+AISpec implements the What-Boundaries-Success (WBS) framework as a prompting framework, providing a practical system for intent engineering in AI applications.
 
 ## Overview
 
@@ -83,7 +83,7 @@ See the `examples/` directory for:
 - Real-world implementation scenarios
 
 ## Theory
-AISpec's effectiveness comes from its ability to reduce the solution space through structured constraints. For example:
+AISpec implements WBS principles specifically for AI development, reducing solution spaces through structured constraints. For example:
 
 Traditional prompt: 
 ```bash
@@ -99,7 +99,7 @@ Feature: Auth {
 }
 # Solution space: Reduced to few viable implementations
 ```
-This structured reduction leads to more accurate and consistent AI-generated code.
+This structured approach to intent engineering in AI contexts leads to more accurate and consistent AI-generated code.
 
 ## Philosophy
 
@@ -165,7 +165,7 @@ Feature: UserAuth {
 See [AISPEC-META-PROMPT.md](AISPEC-META-PROMPT.md) for a comprehensive for a comprehensive guide on AISpec format implementation, including advanced examples and flow patterns.
 
 ## Intuition for LLMs and Why WBS works
-LLMs fundamentally work by sampling the next token based on probability distributions over their vocabulary. What-Boundaries-Success framework works because:
+LLMs fundamentally work by sampling the next token based on probability distributions over their vocabulary. What-Boundaries-Success framework as a prompting framework works because:
 1. What: Defines the initial high-probability region in the LLM's token space
 2. Boundaries: Act as "soft constraints" that shift probability mass AWAY from tokens that would lead to invalid solutions
 3. Success: Creates "peaks" in the probability landscape that guide sampling toward desired end states
@@ -174,6 +174,8 @@ Think of it like this:
 - Without boundaries: LLM explores the entire solution space freely
 - With boundaries: Creates "valleys" in probability space where invalid solutions would be
 - With success criteria: Creates "peaks" that the sampling process is drawn toward
+
+While AISpec focuses on LLM interactions, the underlying WBS framework extends far beyond prompting. For example:
 
 *** This framework can be applied to any autonomous system including self-driving cars, robots and ai agents to reduce GPU resources (compute requirements) and training data requirements. Think of it like this, this framework allows us to scale AI at zero cost just the same way we scale software currently at zero cost. By using this framework you can achieve better results than those spending billions of dollars on data centers, data acquisition, and GPUs to train their systems using this formula I = Bi(C^2). This formula says that when you have enough base intelligence (Bi), intelligence (I) scales exponentially with clarity of constraints (C^2), **not** compute.
 
