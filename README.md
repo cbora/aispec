@@ -191,6 +191,112 @@ The implications are staggering, we can use our method to tell the AI systems wh
 Whereas others who are fine-tuning models have to essentially incur large costs to retrain due to data acquisition costs, human labor, and most importantly GPU resources. Hence the reason they raising billions of dollars.
 
 More on the theory [in this substack](https://chrisbora.substack.com/p/boras-law-intelligence-scales-with).
+
+## Universal Applications of WBS
+
+The What-Boundaries-Success framework extends far beyond AI prompting for software development. Let's explore some practical WBS examples to show how this framework applies universally:
+
+1. **Marketing Campaign**
+    ```
+    What:
+    - Launch product X to market Y
+    - Target 100K impressions
+    - Generate 1000 leads
+    
+    Boundaries:
+    - Budget: $10K
+    - Timeline: 2 weeks
+    - Brand guidelines
+    - Target demographics
+    
+    Success:
+    - Lead quality score > 7/10
+    - CPA < $10
+    - Brand sentiment positive
+    ```
+
+2. **Software Development**
+    ```
+    What:
+    - Set up secure Docker infrastructure
+    - Support Fortune 500 requirements
+    - Enable rapid deployment
+    
+    Boundaries:
+    - Security compliance standards
+    - Performance requirements
+    - Resource constraints
+    - Approved technologies
+    
+    Success:
+    - Security score 8.7/10
+    - Zero critical vulnerabilities
+    - Deployment time < 5 mins
+    ```
+
+3. **Legal Document Review**
+    ```
+    What:
+    - Review acquisition contract
+    - Identify key risks
+    - Suggest modifications
+    
+    Boundaries:
+    - Jurisdiction limits
+    - Industry regulations
+    - Time constraints
+    - Client requirements
+    
+    Success:
+    - All risks identified
+    - Compliance verified
+    - Client approval
+    ```
+
+4. **Internal SaaS**
+    ```
+    What:
+    - Create Salesforce clone for internal team of 5
+    - Customer database & pipeline tracking
+    - Deal management & forecasting
+    
+    Boundaries:
+    - No enterprise features
+    - Single team focus
+    - Basic automation only
+    - Core CRM functions
+    
+    Success:
+    - Users can manage leads/contacts
+    - Track deal progress
+    - Generate basic reports
+    - < 2 second response time
+    ```
+
+The Next Step: Execution Engine<br>
+We're building a system that takes these WBS specifications and:
+1. Automatically executes tasks
+2. Validates against boundaries
+3. Verifies success criteria
+4. Generates test cases
+5. Ensures quality control
+
+This puts humans in the driver's seat as intent engineers, declaring constraints for AI to work within.
+
+Real World Impact:<br>
+Traditional: 60 developers, $5M, 1 year<br>
+Intent Engineering: 2 intent engineers, minimal capital, fraction of time
+
+Why? Because I = Bi(C²):
+- Base intelligence (Bi) from AI
+- Squared impact from clear constraints (C²)
+- Exponential efficiency gains
+
+Current Focus:
+Solving recursive decomposition with natural stopping criteria - when should WBS stop breaking down into sub-tasks?
+
+As we perfect this framework, entire industries will transform through intent engineering.
+
   
 ## Origin
 AISpec, built on the What-Boundaries-Success (WBS) Framework, was created by Chris Bora ([@chrisbora_](https://twitter.com/chrisbora_)) and first proposed on December 24, 2024 in this [tweet](https://x.com/chrisbora_/status/1871689972870152679).
