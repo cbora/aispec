@@ -299,15 +299,37 @@ As we perfect this framework, entire industries will transform through intent en
 
   
 ## Origin
-AISpec, built on the What-Boundaries-Success (WBS) Framework, was created by Chris Bora ([@chrisbora_](https://twitter.com/chrisbora_)) and first proposed on December 24, 2024 in this [tweet](https://x.com/chrisbora_/status/1871689972870152679).
+AISpec, built on the What-Boundaries-Success (WBS) Framework, was created by Chris Bora ([@christianbora](https://x.com/christianbora)) and first proposed on December 24, 2024 in this [tweet](https://x.com/christianbora/status/1871689972870152679).
 
 ## Community
 Join our community on Discord to share ideas, provide feedback, and collaborate on real-world AISpec applications: [Discord Link](https://discord.gg/24cws4gTEs)
 
 ## Learn More
 - WBS Framework: [WBS-Framework.md](https://github.com/cbora/aispec/blob/main/WBS-Framework.md)
-- Follow development: [@chrisbora_](https://twitter.com/chrisbora_)
+- Follow development: [@christianbora](https://x.com/christianbora)
 
 ## License
 
 MIT License - see LICENSE file for details
+
+## Citation
+
+If you reference or build upon these foundational theories, frameworks, and methodologies, or otherwise found my work valuable, please cite:
+```bibtex
+@misc{bora2025,
+      title={The Chris Bora Repository: Intent Science, Intelligence Scaling, Bora’s Law, WBS, AISpec, and Constraint Engineering},
+      author={Chris Bora},
+      year={2025},
+      publisher = {GitHub},
+      howpublished = {\url{https://github.com/cbora/aispec}},
+}
+```
+
+This repository includes:
+
+- **AISpec** – A specification language for AI-first development
+- **Bora’s Law** – I = Bi(C²) — Intelligence scales with constraints, not compute
+- **Fundamental Theories of Intent Science** – A mathematical framework for reality manifestation
+- **What-Boundaries-Success (WBS) Framework** – A practical framework for implementing Intent Science
+- **Natural Boundary Theory** – The fundamental solution to recursive decomposition in constraint systems
+- **Example AISpecs & Implementations** – Real-world applications of constraint-driven development
