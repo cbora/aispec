@@ -65,9 +65,9 @@ Instead of arbitrary stopping criteria (N loops, fixed depth), decomposition con
 
 Example Manifestation:
 
-WBS: Clone Salesforce
-↓ Decompose until each constraint meets natural boundaries
-↓ Stop when sub-tasks become naturally atomic
+WBS: Clone Salesforce<br/>
+↓ Decompose until each constraint meets natural boundaries<br/>
+↓ Stop when sub-tasks become naturally atomic<br/>
 ↓ AI executes clear, bounded tasks
 
 Key Properties:
