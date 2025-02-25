@@ -317,7 +317,7 @@ MIT License - see LICENSE file for details
 If you reference or build upon these foundational theories, frameworks, and methodologies, or otherwise found my work valuable, please cite:
 ```bibtex
 @misc{bora2025,
-      title={The Chris Bora Repository: Intent Science, Intelligence Scaling, Bora’s Law, WBS, AISpec, and Constraint Engineering},
+      title={The Bora Repository: Intent Science, Intelligence Scaling, Bora’s Law, WBS, AISpec, and Constraint Engineering},
       author={Chris Bora},
       year={2025},
       publisher = {GitHub},
