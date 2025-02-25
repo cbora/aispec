@@ -298,7 +298,7 @@ Solving recursive decomposition with natural stopping criteria - when should WBS
 As we perfect this framework, entire industries will transform through intent engineering.
 
   
-## Origin
+## Evolution
 AISpec, built on the What-Boundaries-Success (WBS) Framework, was created by Chris Bora ([@christianbora](https://x.com/christianbora)) and first proposed on December 24, 2024 in this [tweet](https://x.com/christianbora/status/1871689972870152679).
 
 ## Community
