@@ -190,7 +190,7 @@ The implications are staggering, we can use our method to tell the AI systems wh
 
 Whereas others who are fine-tuning models have to essentially incur large costs to retrain due to data acquisition costs, human labor, and most importantly GPU resources. Hence the reason they raising billions of dollars.
 
-More on the theory [in this substack](https://chrisbora.substack.com/p/boras-law-intelligence-scales-with).
+More on the theory [Bora's Law](BORA's-LAW.md)
 
 ## Universal Applications of WBS
 
