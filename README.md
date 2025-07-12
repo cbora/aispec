@@ -189,12 +189,12 @@ Think of it like this:
 
 While AISpec focuses on LLM interactions, the underlying WBS framework extends far beyond prompting. For example:
 
-*** This framework can be applied to any autonomous system including self-driving cars, robots and ai agents to reduce GPU resources (compute requirements) and training data requirements. Think of it like this, this framework allows us to scale AI at zero cost just the same way we scale software currently at zero cost. By using this framework you can achieve better results than those spending billions of dollars on data centers, data acquisition, and GPUs to train their systems using this formula I = Bi(C^2). This formula says that when you have enough base intelligence (Bi), intelligence (I) scales exponentially with clarity of constraints (C^2), **not** compute.
+This framework can be applied to any autonomous system including self-driving cars, robots and ai agents to reduce GPU resources (compute requirements) and training data requirements. Think of it like this, this framework allows us to scale AI at zero cost just the same way we scale software currently at zero cost. By using this framework you can achieve better results than those spending billions of dollars on data centers, data acquisition, and GPUs to train their systems using this formula I = Bi(C²). This formula says that when you have enough base intelligence (Bi), intelligence (I) scales exponentially with clarity of constraints (C²), **not** compute.
 
 #### Clear example:
 
 - Old System: 1 person drives 1 car
-- WBS and I = Bi(C^2): 1 person drives a million cars (because of the C^2 term)
+- WBS and I = Bi(C²): 1 person drives a million cars (because of the C² term)
 
 What openai, google and other AI labs are working towards is: press a button and all cars drive themselves.
 
