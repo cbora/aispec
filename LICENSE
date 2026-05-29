@@ -1,103 +1,104 @@
-Version 1.0
+# The Try Again License
+
+**Version 1.0**
 © 2024-2026 Chris Bora
 
-1. About This License
+---
+
+## 1. About This License
 
 The Try Again License governs use of the software, documentation, frameworks, methodologies, prompts, templates, workflows, and related materials made available by the licensor under this license.
 
 This license is based on a simple principle:
 
-If “try again” is an acceptable recovery strategy, Community use likely applies.
-If “try again” is not an acceptable recovery strategy, Commercial use likely applies.
+> If "try again" is an acceptable recovery strategy, Community use likely applies.
+> If "try again" is **not** an acceptable recovery strategy, Commercial use likely applies.
 
 Some systems can safely recover from mistakes by retrying, regenerating, rewriting, rerunning, rolling back, or human review. Other systems cannot. When mistakes are cheap, reversible, and low-consequence, broad community use is encouraged. When mistakes can create financial loss, legal exposure, medical harm, physical harm, regulatory violation, material operational disruption, reputational harm, military consequences, institutional harm, or large-scale societal consequences, a commercial license is required.
 
 This license creates three categories of use:
 
-1. Community Use
-    Free use for low-consequence, retry-safe systems.
-1. Growth / Limited Commercial Use
-    Free or low-friction use until meaningful commercial scale, after which a commercial license is required.
-1. Full Commercial Use
-    Commercial license required from day one for high-consequence systems.
+1. **Community Use** — Free use for low-consequence, retry-safe systems.
+2. **Growth / Limited Commercial Use** — Free or low-friction use until meaningful commercial scale, after which a commercial license is required.
+3. **Full Commercial Use** — Commercial license required from day one for high-consequence systems.
 
 This license is not an open-source license as defined by the Open Source Initiative because it restricts certain commercial, field-specific, and high-consequence uses.
 
-⸻
+---
 
-2. Definitions
+## 2. Definitions
 
 For purposes of this license:
 
-Licensor means Chris Bora or any entity authorized by Chris Bora to offer the protected material under this license.
+**Licensor** means Chris Bora or any entity authorized by Chris Bora to offer the protected material under this license.
 
-You means the individual or entity exercising rights under this license.
+**You** means the individual or entity exercising rights under this license.
 
-Your Company means any legal entity, sole proprietorship, partnership, company, organization, parent, subsidiary, affiliate, contractor, joint venture, or other entity that you work for, control, are controlled by, or are under common control with.
+**Your Company** means any legal entity, sole proprietorship, partnership, company, organization, parent, subsidiary, affiliate, contractor, joint venture, or other entity that you work for, control, are controlled by, or are under common control with.
 
-Protected Material means the software, documentation, frameworks, methodologies, prompts, templates, workflows, operating procedures, reference implementations, examples, specifications, or other materials made available under this license.
+**Protected Material** means the software, documentation, frameworks, methodologies, prompts, templates, workflows, operating procedures, reference implementations, examples, specifications, or other materials made available under this license.
 
-Use means to use, copy, modify, distribute, make available, run, deploy, host, incorporate, adapt, implement, prepare derivative works from, or otherwise exercise rights in the Protected Material.
+**Use** means to use, copy, modify, distribute, make available, run, deploy, host, incorporate, adapt, implement, prepare derivative works from, or otherwise exercise rights in the Protected Material.
 
-Community Use means use permitted under Section 6.
+**Community Use** means use permitted under Section 6.
 
-Growth / Limited Commercial Use means use described in Section 7.
+**Growth / Limited Commercial Use** means use described in Section 7.
 
-Full Commercial Use means use described in Section 8.
+**Full Commercial Use** means use described in Section 8.
 
-Commercial License means a separate written agreement signed or otherwise approved in writing by the licensor granting rights beyond those granted under this public license.
+**Commercial License** means a separate written agreement signed or otherwise approved in writing by the licensor granting rights beyond those granted under this public license.
 
-Derivative Work means any modified, adapted, translated, ported, reimplemented, renamed, substantially similar, or derivative version of the Protected Material, including systems that substantially reproduce the structure, method, operating doctrine, or protected methodology of the Protected Material.
+**Derivative Work** means any modified, adapted, translated, ported, reimplemented, renamed, substantially similar, or derivative version of the Protected Material, including systems that substantially reproduce the structure, method, operating doctrine, or protected methodology of the Protected Material.
 
-High-Consequence System means any system where failure, misuse, drift, ambiguity, or unauthorized action could reasonably create financial loss, legal exposure, medical harm, physical harm, regulatory violation, material operational disruption, reputational harm at scale, military consequences, institutional harm, or large-scale societal consequences.
+**High-Consequence System** means any system where failure, misuse, drift, ambiguity, or unauthorized action could reasonably create financial loss, legal exposure, medical harm, physical harm, regulatory violation, material operational disruption, reputational harm at scale, military consequences, institutional harm, or large-scale societal consequences.
 
-Autonomous External Action means an action taken, recommended, authorized, routed, verified, governed, or executed by a system on behalf of a user, customer, company, patient, investor, institution, government, or third party outside a purely internal, low-consequence, retry-safe environment.
+**Autonomous External Action** means an action taken, recommended, authorized, routed, verified, governed, or executed by a system on behalf of a user, customer, company, patient, investor, institution, government, or third party outside a purely internal, low-consequence, retry-safe environment.
 
-⸻
+---
 
-3. Protected Material
+## 3. Protected Material
 
 This license applies to the full constraint-governance stack, including but not limited to:
 
-* AISpec
-* WBS, meaning What-Boundaries-Success
-* Bora’s Law
-* Natural Boundary Theory
-* Constraint Engineering
-* Constraint Governance
-* Constraint-Based Transfer Learning
-* Constraint Graphs
-* Constraint Backpropagation
-* Functional Role Decomposition
-* Reversible / irreversible action classification
-* One-way door / two-way door governance
-* Approval-gated autonomous execution
-* AI Chief of Staff systems
-* Bora Labs systems
-* Aris-style operating systems
-* Drift measurement systems
-* Constraint clarity scoring
-* Delta clarity measurement
-* Boundary completeness measurement
-* Success criteria satisfaction scoring
-* Reasoning alignment measurement
-* Prompt templates
-* Agent memory structures
-* Operating procedures
-* Approval frameworks
-* Verification workflows
-* Software libraries
-* Documentation
-* Templates
-* Workflows
-* Reference implementations
-* Derivative implementations based on the above
+- AISpec
+- WBS, meaning What-Boundaries-Success
+- Bora's Law
+- Natural Boundary Theory
+- Constraint Engineering
+- Constraint Governance
+- Constraint-Based Transfer Learning
+- Constraint Graphs
+- Constraint Backpropagation
+- Functional Role Decomposition
+- Reversible / irreversible action classification
+- One-way door / two-way door governance
+- Approval-gated autonomous execution
+- AI Chief of Staff systems
+- Bora Labs systems
+- Aris-style operating systems
+- Drift measurement systems
+- Constraint clarity scoring
+- Delta clarity measurement
+- Boundary completeness measurement
+- Success criteria satisfaction scoring
+- Reasoning alignment measurement
+- Prompt templates
+- Agent memory structures
+- Operating procedures
+- Approval frameworks
+- Verification workflows
+- Software libraries
+- Documentation
+- Templates
+- Workflows
+- Reference implementations
+- Derivative implementations based on the above
 
 The purpose of this license is to govern use of constraint-governed autonomous execution systems and related methodologies, not merely a single document format.
 
-⸻
+---
 
-4. Copyright License
+## 4. Copyright License
 
 Subject to the terms and limitations of this license, the licensor grants you a non-exclusive, worldwide, royalty-free, non-sublicensable, non-transferable copyright license to use, copy, modify, distribute, make available, and prepare derivative works of the Protected Material, but only for uses permitted under this license.
 
@@ -105,77 +106,77 @@ No rights are granted for Full Commercial Use unless you obtain a separate Comme
 
 No rights are granted for Growth / Limited Commercial Use after the applicable commercial thresholds are exceeded unless you obtain a separate Commercial License.
 
-⸻
+---
 
-5. Core Principle
+## 5. Core Principle
 
 The Try Again License distinguishes between systems where mistakes are safely recoverable and systems where mistakes create meaningful consequences.
 
 The guiding rule is:
 
-If “try again” is an acceptable recovery strategy, Community Use likely applies.
-If “try again” is not an acceptable recovery strategy, Commercial Use likely applies.
+> If "try again" is an acceptable recovery strategy, Community Use likely applies.
+> If "try again" is **not** an acceptable recovery strategy, Commercial Use likely applies.
 
 A mistake is generally retry-safe when it can be corrected, regenerated, rolled back, ignored, reviewed, or rerun without material harm.
 
 A mistake is generally not retry-safe when it can reasonably cause financial loss, legal exposure, medical harm, physical harm, regulatory violation, material operational disruption, reputational harm at scale, military consequences, institutional harm, or large-scale societal consequences.
 
-⸻
+---
 
-6. Community Use
+## 6. Community Use
 
 Community Use is permitted without a separate Commercial License when the use is low-consequence, retry-safe, and does not involve high-consequence external action.
 
 Examples of Community Use include:
 
-* Blog generation
-* Marketing content
-* SEO / SEM content
-* Image generation
-* Video generation
-* Graphic / UX design
-* Market research
-* Internal tooling
-* Coding agents
-* SaaS development, if the system does not control high-consequence workflows
-* Non-commercial research
-* Personal use
-* Educational use
-* Open-source experimentation
-* Internal prototypes
-* Low-risk demos
-* Drafting systems where humans review before external action
+- Blog generation
+- Marketing content
+- SEO / SEM content
+- Image generation
+- Video generation
+- Graphic / UX design
+- Market research
+- Internal tooling
+- Coding agents
+- SaaS development, if the system does not control high-consequence workflows
+- Non-commercial research
+- Personal use
+- Educational use
+- Open-source experimentation
+- Internal prototypes
+- Low-risk demos
+- Drafting systems where humans review before external action
 
 Community Use is allowed when mistakes are reversible and do not directly move money, affect legal rights, touch patients, control physical systems, make regulated decisions, or act externally on behalf of customers, users, patients, investors, institutions, governments, or companies in a high-consequence context.
 
-Community Use does not include use in a system merely because that system is called “internal tooling” if the system materially governs, recommends, authorizes, verifies, or executes high-consequence actions.
+Community Use does not include use in a system merely because that system is called "internal tooling" if the system materially governs, recommends, authorizes, verifies, or executes high-consequence actions.
 
 Community Use does not include use in a system that would otherwise qualify as Growth / Limited Commercial Use after crossing the thresholds in Section 7 or Full Commercial Use under Section 8.
 
-⸻
+---
 
-7. Growth / Limited Commercial Use
+## 7. Growth / Limited Commercial Use
 
 Growth / Limited Commercial Use applies to systems where mistakes may be tolerable at small scale or with human review, but where the risk profile changes as usage, revenue, customer exposure, or operational dependency increases.
 
 Examples include:
 
-* Recruitment
-* Executive search
-* Admin assistants
-* Corporate training
-* Travel management
-* Advertising workflows
-* Architecture concepting
-* Paralegal research, but not legal execution
-* AI chief of staff systems
-* Customer-facing agents below scale thresholds
-* Voice agents below scale thresholds
-* Outbound calling agents below scale thresholds
-* Appointment-setting agents below scale thresholds
-* SaaS products using the Protected Material internally but not controlling high-consequence workflows
-* Business process automation where humans approve material actions
-* Internal workflow automation that becomes operationally important at scale
+- Recruitment
+- Executive search
+- Admin assistants
+- Corporate training
+- Travel management
+- Advertising workflows
+- Architecture concepting
+- Paralegal research, but not legal execution
+- AI chief of staff systems
+- Customer-facing agents below scale thresholds
+- Voice agents below scale thresholds
+- Outbound calling agents below scale thresholds
+- Appointment-setting agents below scale thresholds
+- SaaS products using the Protected Material internally but not controlling high-consequence workflows
+- Business process automation where humans approve material actions
+- Internal workflow automation that becomes operationally important at scale
 
 A Commercial License is required once any of the following thresholds are exceeded:
 
@@ -191,143 +192,143 @@ The licensor may publish separate pricing, usage limits, field restrictions, or 
 
 Growth / Limited Commercial Use is intended as a bridge: low-friction enough to encourage experimentation, but serious enough that meaningful scale requires a commercial relationship.
 
-⸻
+---
 
-8. Full Commercial Use
+## 8. Full Commercial Use
 
 Full Commercial Use requires a separate Commercial License from day one, regardless of revenue, usage volume, funding status, company stage, or monetization status.
 
 Full Commercial Use includes, but is not limited to, use in or for:
 
-* Payments
-* Money movement
-* Stablecoin movement
-* Trading
-* Wealth management
-* Fund administration
-* Payroll and compliance
-* KYC / AML
-* Insurance brokerage
-* Claims adjusting
-* Mortgage origination
-* Real estate closing
-* Healthcare decision systems
-* Medical administration
-* Healthcare revenue cycle
-* Clinical decision support
-* Legal execution systems
-* Regulated decision systems
-* Supply chain and procurement
-* Critical infrastructure
-* Drones
-* Robotics
-* Autonomous vehicles
-* Military systems
-* Defense systems
-* Weapons systems
-* Law enforcement systems
-* Emergency response systems
-* AGI systems
-* Superintelligence systems
-* Systems that may materially affect civil rights, legal status, eligibility, access, obligations, safety, or institutional operations
+- Payments
+- Money movement
+- Stablecoin movement
+- Trading
+- Wealth management
+- Fund administration
+- Payroll and compliance
+- KYC / AML
+- Insurance brokerage
+- Claims adjusting
+- Mortgage origination
+- Real estate closing
+- Healthcare decision systems
+- Medical administration
+- Healthcare revenue cycle
+- Clinical decision support
+- Legal execution systems
+- Regulated decision systems
+- Supply chain and procurement
+- Critical infrastructure
+- Drones
+- Robotics
+- Autonomous vehicles
+- Military systems
+- Defense systems
+- Weapons systems
+- Law enforcement systems
+- Emergency response systems
+- AGI systems
+- Superintelligence systems
+- Systems that may materially affect civil rights, legal status, eligibility, access, obligations, safety, or institutional operations
 
-A Commercial License is required whenever the system’s failure could reasonably cause financial loss, legal exposure, medical harm, physical harm, regulatory violation, material operational disruption, reputational harm at scale, institutional harm, military consequences, or large-scale societal consequences.
+A Commercial License is required whenever the system's failure could reasonably cause financial loss, legal exposure, medical harm, physical harm, regulatory violation, material operational disruption, reputational harm at scale, institutional harm, military consequences, or large-scale societal consequences.
 
 You may not avoid the Commercial License requirement by claiming that the system is:
 
-* pre-revenue;
-* in beta;
-* internal only;
-* only a pilot;
-* human-in-the-loop;
-* only advisory;
-* only partially autonomous;
-* only used for planning;
-* only used for evaluation;
-* only used for verification;
-* only used for governance.
+- pre-revenue;
+- in beta;
+- internal only;
+- only a pilot;
+- human-in-the-loop;
+- only advisory;
+- only partially autonomous;
+- only used for planning;
+- only used for evaluation;
+- only used for verification;
+- only used for governance.
 
 If the Protected Material materially supports, governs, verifies, routes, recommends, authorizes, or executes a high-consequence system, the use requires a Commercial License.
 
-⸻
+---
 
-9. Reversible and Irreversible Actions
+## 9. Reversible and Irreversible Actions
 
-A reversible action is an action where a mistake can reasonably be undone, regenerated, corrected, rolled back, ignored, or retried without material harm.
+A **reversible action** is an action where a mistake can reasonably be undone, regenerated, corrected, rolled back, ignored, or retried without material harm.
 
 Examples include:
 
-* generating a blog post;
-* generating an image;
-* generating a video;
-* drafting an email;
-* creating a code PR;
-* suggesting content;
-* generating marketing copy;
-* producing internal research;
-* running internal experiments;
-* creating non-critical software prototypes.
+- generating a blog post;
+- generating an image;
+- generating a video;
+- drafting an email;
+- creating a code PR;
+- suggesting content;
+- generating marketing copy;
+- producing internal research;
+- running internal experiments;
+- creating non-critical software prototypes.
 
 A two-way door action means substantially the same thing: the action can be reversed or retried without material consequence.
 
-An irreversible action is an action where a mistake cannot reasonably be undone, or where reversal would likely create meaningful cost, risk, delay, harm, liability, or operational disruption.
+An **irreversible action** is an action where a mistake cannot reasonably be undone, or where reversal would likely create meaningful cost, risk, delay, harm, liability, or operational disruption.
 
 Examples include:
 
-* moving money;
-* placing a trade;
-* executing a payment;
-* sending an outbound call or message at scale;
-* modifying a patient record;
-* making a healthcare decision;
-* controlling a drone;
-* controlling a robot;
-* filing a legal document;
-* approving an insurance claim;
-* running payroll;
-* making a KYC / AML decision;
-* changing access rights;
-* taking procurement action;
-* making a regulated decision;
-* acting in a military or defense context.
+- moving money;
+- placing a trade;
+- executing a payment;
+- sending an outbound call or message at scale;
+- modifying a patient record;
+- making a healthcare decision;
+- controlling a drone;
+- controlling a robot;
+- filing a legal document;
+- approving an insurance claim;
+- running payroll;
+- making a KYC / AML decision;
+- changing access rights;
+- taking procurement action;
+- making a regulated decision;
+- acting in a military or defense context.
 
 A one-way door action means substantially the same thing: the action cannot be safely reversed through a simple retry.
 
 Systems that govern, authorize, recommend, verify, route, or execute irreversible or one-way door actions generally require a Commercial License.
 
-⸻
+---
 
-10. Autonomous External Action Rule
+## 10. Autonomous External Action Rule
 
 A Commercial License is required if the system takes, recommends, authorizes, routes, verifies, governs, or executes autonomous external action on behalf of a user, company, customer, patient, investor, institution, government, or other third party in a high-consequence context.
 
 Examples of autonomous external action include:
 
-* moving money;
-* placing trades;
-* executing payments;
-* sending legally significant messages;
-* sending outbound calls at scale;
-* sending customer-facing communications at scale;
-* making healthcare recommendations;
-* updating patient records;
-* updating financial records;
-* controlling drones;
-* controlling robots;
-* initiating procurement;
-* approving claims;
-* making compliance decisions;
-* making eligibility decisions;
-* triggering operational workflows;
-* changing user access;
-* filing legal documents;
-* taking action that affects legal rights, access, eligibility, obligations, money, safety, or institutional operations.
+- moving money;
+- placing trades;
+- executing payments;
+- sending legally significant messages;
+- sending outbound calls at scale;
+- sending customer-facing communications at scale;
+- making healthcare recommendations;
+- updating patient records;
+- updating financial records;
+- controlling drones;
+- controlling robots;
+- initiating procurement;
+- approving claims;
+- making compliance decisions;
+- making eligibility decisions;
+- triggering operational workflows;
+- changing user access;
+- filing legal documents;
+- taking action that affects legal rights, access, eligibility, obligations, money, safety, or institutional operations.
 
 A system is not Community Use merely because it is software if it controls, influences, verifies, governs, or enables high-consequence external action.
 
-⸻
+---
 
-11. Constraint-Based Transfer Learning
+## 11. Constraint-Based Transfer Learning
 
 Constraint-Based Transfer Learning is protected under this license.
 
@@ -335,104 +336,104 @@ For purposes of this license, Constraint-Based Transfer Learning means teaching,
 
 This includes implementations that substantially reproduce the protected method by:
 
-* defining task boundaries;
-* encoding success criteria;
-* creating operating rules;
-* transferring procedures into memory;
-* creating approval gates;
-* creating constraint libraries;
-* creating reusable constraint graphs;
-* using constraint-based instructions to transfer behavior across domains;
-* using constraint-based operating doctrine to adapt agents or workflows.
+- defining task boundaries;
+- encoding success criteria;
+- creating operating rules;
+- transferring procedures into memory;
+- creating approval gates;
+- creating constraint libraries;
+- creating reusable constraint graphs;
+- using constraint-based instructions to transfer behavior across domains;
+- using constraint-based operating doctrine to adapt agents or workflows.
 
 A user may not avoid this license merely by claiming not to use WBS if the user substantially reproduces the same protected method through rules, constraints, boundaries, success criteria, memory, approval gates, or verification workflows.
 
-⸻
+---
 
-12. Drift Measurement and Constraint Clarity
+## 12. Drift Measurement and Constraint Clarity
 
 The following are protected methodologies under this license:
 
-* drift measurement;
-* constraint drift detection;
-* output drift scoring;
-* behavioral drift scoring;
-* memory drift scoring;
-* rule drift scoring;
-* approval drift detection;
-* constraint clarity scoring;
-* delta clarity measurement;
-* boundary completeness scoring;
-* success criteria satisfaction scoring;
-* reasoning alignment scoring;
-* constraint density measurement;
-* constraint quality measurement;
-* constraint gap detection;
-* ambiguity detection;
-* natural boundary detection;
-* recovery path evaluation.
+- drift measurement;
+- constraint drift detection;
+- output drift scoring;
+- behavioral drift scoring;
+- memory drift scoring;
+- rule drift scoring;
+- approval drift detection;
+- constraint clarity scoring;
+- delta clarity measurement;
+- boundary completeness scoring;
+- success criteria satisfaction scoring;
+- reasoning alignment scoring;
+- constraint density measurement;
+- constraint quality measurement;
+- constraint gap detection;
+- ambiguity detection;
+- natural boundary detection;
+- recovery path evaluation.
 
-Drift measurement means any process for evaluating whether an autonomous system’s outputs, decisions, recommendations, plans, or actions are moving away from intended constraints, memory, rules, boundaries, success criteria, approved operating procedures, or authorized behavior.
+**Drift measurement** means any process for evaluating whether an autonomous system's outputs, decisions, recommendations, plans, or actions are moving away from intended constraints, memory, rules, boundaries, success criteria, approved operating procedures, or authorized behavior.
 
-Constraint clarity scoring means any process for measuring the completeness, precision, ambiguity, enforceability, or operational usefulness of constraints, boundaries, rules, memory, or success criteria.
+**Constraint clarity scoring** means any process for measuring the completeness, precision, ambiguity, enforceability, or operational usefulness of constraints, boundaries, rules, memory, or success criteria.
 
-Delta clarity means any process for measuring the change in constraint clarity before and after adding, modifying, decomposing, verifying, or restructuring constraints.
+**Delta clarity** means any process for measuring the change in constraint clarity before and after adding, modifying, decomposing, verifying, or restructuring constraints.
 
 These concepts are part of the protected methodology, but the primary public-facing classification principle remains:
 
-Can the system safely try again?
+> Can the system safely try again?
 
-⸻
+---
 
-13. Commercial License Requirement
+## 13. Commercial License Requirement
 
 You must obtain a separate written Commercial License before using the Protected Material in:
 
-* Growth / Limited Commercial Use after crossing applicable thresholds;
-* Full Commercial Use;
-* any High-Consequence System;
-* any system where “try again” is not an acceptable recovery strategy;
-* any system involving irreversible or one-way door actions;
-* any system taking autonomous external action in a high-consequence context;
-* any system where failure could reasonably create financial, legal, medical, physical, regulatory, operational, reputational, military, institutional, or societal harm.
+- Growth / Limited Commercial Use after crossing applicable thresholds;
+- Full Commercial Use;
+- any High-Consequence System;
+- any system where "try again" is not an acceptable recovery strategy;
+- any system involving irreversible or one-way door actions;
+- any system taking autonomous external action in a high-consequence context;
+- any system where failure could reasonably create financial, legal, medical, physical, regulatory, operational, reputational, military, institutional, or societal harm.
 
 A Commercial License may include:
 
-* fees;
-* revenue share;
-* usage limits;
-* field restrictions;
-* audit rights;
-* attribution terms;
-* support terms;
-* safety requirements;
-* compliance obligations;
-* insurance requirements;
-* human review requirements;
-* revocation terms;
-* renewal terms;
-* irrevocability terms;
-* special grandfathering rights.
+- fees;
+- revenue share;
+- usage limits;
+- field restrictions;
+- audit rights;
+- attribution terms;
+- support terms;
+- safety requirements;
+- compliance obligations;
+- insurance requirements;
+- human review requirements;
+- revocation terms;
+- renewal terms;
+- irrevocability terms;
+- special grandfathering rights.
 
 The licensor may negotiate separate commercial terms case by case.
 
-⸻
+---
 
-14. Prohibited Uses Without Commercial License
+## 14. Prohibited Uses Without Commercial License
 
 Without a separate Commercial License, you may not use the Protected Material for:
 
-* Full Commercial Use;
-* high-consequence autonomous systems;
-* payment, trading, financial, healthcare, legal, military, defense, infrastructure, robotics, drone, or AGI / superintelligence systems;
-* systems where failure could reasonably cause financial loss, legal exposure, medical harm, physical harm, regulatory violation, operational disruption, reputational harm at scale, military consequences, institutional harm, or large-scale societal consequences;
-* systems that execute, recommend, authorize, route, verify, or govern irreversible or one-way door actions;
-* systems that take autonomous external action in a high-consequence context;
-* Growth / Limited Commercial systems after applicable thresholds are exceeded.
+- Full Commercial Use;
+- high-consequence autonomous systems;
+- payment, trading, financial, healthcare, legal, military, defense, infrastructure, robotics, drone, or AGI / superintelligence systems;
+- systems where failure could reasonably cause financial loss, legal exposure, medical harm, physical harm, regulatory violation, operational disruption, reputational harm at scale, military consequences, institutional harm, or large-scale societal consequences;
+- systems that execute, recommend, authorize, route, verify, or govern irreversible or one-way door actions;
+- systems that take autonomous external action in a high-consequence context;
+- Growth / Limited Commercial systems after applicable thresholds are exceeded.
 
-⸻
+---
 
-15. Attribution and Notices
+## 15. Attribution and Notices
 
 You must preserve all copyright notices, license notices, attribution notices, and disclaimers included with the Protected Material.
 
@@ -442,9 +443,9 @@ You may not imply endorsement by Chris Bora, Bora Labs, AISpec, WBS, Aris, or an
 
 No trademark rights are granted under this license.
 
-⸻
+---
 
-16. Derivative Works
+## 16. Derivative Works
 
 You may create Derivative Works under Community Use if the Derivative Works remain within Community Use.
 
@@ -454,20 +455,20 @@ Derivative Works used in Full Commercial Use require a Commercial License from d
 
 Derivative Works include, but are not limited to:
 
-* modified versions;
-* adapted versions;
-* renamed versions;
-* translated versions;
-* ported versions;
-* reimplemented versions;
-* substantially similar versions;
-* implementations that preserve the protected structure, method, or operating doctrine.
+- modified versions;
+- adapted versions;
+- renamed versions;
+- translated versions;
+- ported versions;
+- reimplemented versions;
+- substantially similar versions;
+- implementations that preserve the protected structure, method, or operating doctrine.
 
 This license does not claim ownership over all independent systems that generally use constraints, rules, tests, specifications, or software engineering practices. The license applies to substantial reproduction, adaptation, or use of the Protected Material or protected methodologies.
 
-⸻
+---
 
-17. Patent License and Patent Retaliation
+## 17. Patent License and Patent Retaliation
 
 Subject to the terms and limitations of this license, the licensor grants you a license under any patent claims the licensor can license, or later becomes able to license, to make, have made, use, sell, offer for sale, import, and have imported the Protected Material, but only for uses permitted under this license.
 
@@ -477,33 +478,33 @@ This patent license does not cover patent claims that you cause to be infringed 
 
 If you or Your Company bring a patent claim alleging that the Protected Material infringes or contributes to infringement of a patent, your patent license under this license terminates immediately.
 
-If you or Your Company attempt to patent WBS, Bora’s Law, Natural Boundary Theory, Constraint Engineering, Constraint Governance, Constraint-Based Transfer Learning, drift measurement, constraint clarity scoring, approval-gated autonomous execution, one-way / two-way door governance, or substantially similar protected material, your rights under this license terminate immediately.
+If you or Your Company attempt to patent WBS, Bora's Law, Natural Boundary Theory, Constraint Engineering, Constraint Governance, Constraint-Based Transfer Learning, drift measurement, constraint clarity scoring, approval-gated autonomous execution, one-way / two-way door governance, or substantially similar protected material, your rights under this license terminate immediately.
 
 You may use the Protected Material under this license, but you may not use patent law to restrict the licensor, the community, or other users from practicing the Protected Material.
 
-⸻
+---
 
-18. Anti-Circumvention
+## 18. Anti-Circumvention
 
 You may not avoid this license by:
 
-* renaming WBS;
-* rebranding the framework;
-* calling it a different methodology;
-* splitting the system across affiliates;
-* using subsidiaries or shell entities;
-* creating “inspired by” implementations that substantially reproduce the protected framework;
-* separating high-consequence execution into another entity;
-* moving commercial use into a customer, partner, affiliate, contractor, or related entity;
-* claiming the system is only used for planning when it materially governs execution;
-* claiming the system is only used internally when it materially affects high-consequence external action;
-* fragmenting the Protected Material into separate modules to avoid license classification.
+- renaming WBS;
+- rebranding the framework;
+- calling it a different methodology;
+- splitting the system across affiliates;
+- using subsidiaries or shell entities;
+- creating "inspired by" implementations that substantially reproduce the protected framework;
+- separating high-consequence execution into another entity;
+- moving commercial use into a customer, partner, affiliate, contractor, or related entity;
+- claiming the system is only used for planning when it materially governs execution;
+- claiming the system is only used internally when it materially affects high-consequence external action;
+- fragmenting the Protected Material into separate modules to avoid license classification.
 
 This section is intended to prevent bad-faith evasion. It does not prohibit independently developed systems that do not substantially reproduce, adapt, or use the Protected Material or protected methodologies.
 
-⸻
+---
 
-19. Special Written Licenses and Grandfathered Rights
+## 19. Special Written Licenses and Grandfathered Rights
 
 The licensor may grant separate written licenses, waivers, exceptions, grandfathered rights, commercial licenses, or special terms to specific individuals, companies, products, projects, collaborators, design partners, or historical contributors.
 
@@ -511,129 +512,129 @@ Any such rights apply only if granted in writing by the licensor.
 
 Separate written licenses may be:
 
-* revocable;
-* irrevocable;
-* perpetual;
-* time-limited;
-* renewable;
-* non-renewable;
-* field-limited;
-* customer-specific;
-* product-specific;
-* revenue-limited;
-* usage-limited.
+- revocable;
+- irrevocable;
+- perpetual;
+- time-limited;
+- renewable;
+- non-renewable;
+- field-limited;
+- customer-specific;
+- product-specific;
+- revenue-limited;
+- usage-limited.
 
 Nothing in this public license requires the licensor to offer the same terms to all users.
 
 Special written licenses may override this license only for the specific user, product, field, or use case described in the written license.
 
-⸻
+---
 
-20. Termination
+## 20. Termination
 
 If you use the Protected Material in violation of this license, such use is not licensed and your rights under this license terminate automatically.
 
 Your rights may terminate if you:
 
-* violate this license;
-* use the Protected Material in Growth / Limited Commercial Use after crossing applicable thresholds without a Commercial License;
-* use the Protected Material in Full Commercial Use without a Commercial License;
-* remove copyright or license notices;
-* misrepresent ownership of the Protected Material;
-* attempt to patent the Protected Material or protected methodologies;
-* bring a patent claim against the licensor or Protected Material;
-* circumvent or attempt to circumvent this license;
-* use the Protected Material in prohibited high-consequence systems without permission;
-* fail to cure a violation after notice, where cure is allowed.
+- violate this license;
+- use the Protected Material in Growth / Limited Commercial Use after crossing applicable thresholds without a Commercial License;
+- use the Protected Material in Full Commercial Use without a Commercial License;
+- remove copyright or license notices;
+- misrepresent ownership of the Protected Material;
+- attempt to patent the Protected Material or protected methodologies;
+- bring a patent claim against the licensor or Protected Material;
+- circumvent or attempt to circumvent this license;
+- use the Protected Material in prohibited high-consequence systems without permission;
+- fail to cure a violation after notice, where cure is allowed.
 
 Full Commercial rights do not exist under this public license unless granted separately in writing.
 
 Commercial licenses are governed by their separate written terms.
 
-⸻
+---
 
-21. Cure and Reinstatement
+## 21. Cure and Reinstatement
 
 For ordinary, non-willful violations, if the licensor notifies you of a violation and you cure the violation within 30 days after receiving notice, the licensor may reinstate your rights retroactively for a first-time violation.
 
 No automatic cure applies to:
 
-* willful commercial misuse;
-* unauthorized Full Commercial Use;
-* patent claims against the licensor;
-* attempts to patent the Protected Material;
-* misappropriation of ownership;
-* bad-faith circumvention;
-* use in high-consequence systems without commercial permission;
-* repeated violations after reinstatement.
+- willful commercial misuse;
+- unauthorized Full Commercial Use;
+- patent claims against the licensor;
+- attempts to patent the Protected Material;
+- misappropriation of ownership;
+- bad-faith circumvention;
+- use in high-consequence systems without commercial permission;
+- repeated violations after reinstatement.
 
 For these violations, termination may be immediate and permanent unless the licensor agrees otherwise in writing.
 
-⸻
+---
 
-22. No Warranty
+## 22. No Warranty
 
-The Protected Material is provided “as is,” without warranties or conditions of any kind, express or implied.
+The Protected Material is provided "as is," without warranties or conditions of any kind, express or implied.
 
 The licensor does not warrant that the Protected Material is:
 
-* safe;
-* accurate;
-* secure;
-* reliable;
-* compliant;
-* non-infringing;
-* fit for a particular purpose;
-* suitable for high-consequence systems;
-* suitable for autonomous systems;
-* suitable for regulated systems;
-* free from errors, defects, vulnerabilities, ambiguity, drift, or misuse.
+- safe;
+- accurate;
+- secure;
+- reliable;
+- compliant;
+- non-infringing;
+- fit for a particular purpose;
+- suitable for high-consequence systems;
+- suitable for autonomous systems;
+- suitable for regulated systems;
+- free from errors, defects, vulnerabilities, ambiguity, drift, or misuse.
 
 The availability of a Commercial License does not mean the Protected Material is safe or sufficient for high-consequence systems without appropriate engineering, legal, safety, regulatory, operational, and human review.
 
-⸻
+---
 
-23. Limitation of Liability
+## 23. Limitation of Liability
 
 As far as the law allows, the licensor will not be liable for any damages, losses, claims, costs, expenses, or liabilities arising from or related to:
 
-* use of the Protected Material;
-* misuse of the Protected Material;
-* deployment decisions;
-* AI system failures;
-* autonomous actions;
-* financial loss;
-* legal exposure;
-* medical harm;
-* physical harm;
-* regulatory violations;
-* operational disruption;
-* reputational harm;
-* military or defense consequences;
-* societal harm;
-* data loss;
-* security incidents;
-* business interruption;
-* lost profits;
-* indirect, incidental, special, consequential, exemplary, or punitive damages.
+- use of the Protected Material;
+- misuse of the Protected Material;
+- deployment decisions;
+- AI system failures;
+- autonomous actions;
+- financial loss;
+- legal exposure;
+- medical harm;
+- physical harm;
+- regulatory violations;
+- operational disruption;
+- reputational harm;
+- military or defense consequences;
+- societal harm;
+- data loss;
+- security incidents;
+- business interruption;
+- lost profits;
+- indirect, incidental, special, consequential, exemplary, or punitive damages.
 
 You are responsible for:
 
-* safety;
-* testing;
-* compliance;
-* regulatory obligations;
-* security;
-* deployment decisions;
-* human oversight;
-* insurance;
-* legal review;
-* commercial licensing obligations;
-* harm caused by your systems.
+- safety;
+- testing;
+- compliance;
+- regulatory obligations;
+- security;
+- deployment decisions;
+- human oversight;
+- insurance;
+- legal review;
+- commercial licensing obligations;
+- harm caused by your systems.
 
-⸻
+---
 
-24. No Other Rights
+## 24. No Other Rights
 
 No rights are granted except those expressly granted in this license.
 
@@ -647,9 +648,9 @@ No rights are granted for Full Commercial Use without a separate written Commerc
 
 No rights are granted to use the Protected Material in prohibited high-consequence systems except through a separate written agreement.
 
-⸻
+---
 
-25. Changes to This License
+## 25. Changes to This License
 
 The licensor may publish new versions of this license.
 
@@ -659,17 +660,17 @@ A later version of this license does not automatically revoke rights properly gr
 
 The licensor may offer different terms, exceptions, or commercial licenses to different users, products, projects, or fields of use.
 
-⸻
+---
 
-26. Legal Review Notice
+## 26. Legal Review Notice
 
 This license is a working license draft and should be reviewed by qualified legal counsel before use in high-consequence, commercial, regulated, or legally sensitive contexts.
 
 Use of this license does not create an attorney-client relationship.
 
-⸻
+---
 
-27. Summary
+## 27. Summary
 
 Community Use applies when mistakes are cheap, reversible, and retry-safe.
 
@@ -679,5 +680,5 @@ Full Commercial Use applies when mistakes are expensive from day one.
 
 The guiding principle is:
 
-If “try again” is an acceptable recovery strategy, Community License likely applies.
-If “try again” is not an acceptable recovery strategy, Commercial License likely applies.
+> If "try again" is an acceptable recovery strategy, Community License likely applies.
+> If "try again" is **not** an acceptable recovery strategy, Commercial License likely applies.
