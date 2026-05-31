@@ -4,18 +4,6 @@ A specification language for AI-first development that shifts focus from impleme
 
 AISpec implements the What-Boundaries-Success (WBS) framework as a prompting framework, providing a practical system for intent engineering in AI applications.
 
----
-
-### From Theory to Reality: The Reasoning API is Coming
-
-**AISpec and the WBS framework are the core intellectual foundation for the new Reasoning API — a production-grade platform for building reliable AI systems.**
-
-Go from chaotic prompts to deterministic outputs. Join the private beta waitlist to get early access.
-
-[![Join the Waitlist](https://img.shields.io/badge/Join%20the%20Private%20Beta%20Waitlist-►-black?style=for-the-badge&logo=rocket)](https://reasoningapi.io)
-
----
-
 ## Overview
 
 AISpec is a declarative format for defining software features in a way that's both human-readable and AI-parseable. It focuses on three key aspects:
@@ -303,21 +291,6 @@ Why? Because I = Bi(C²):
 - Base intelligence (Bi) from AI
 - Squared impact from clear constraints (C²)
 - Exponential efficiency gains
-
-### The Next Step: The Reasoning API
-
-The theoretical work on AISpec and WBS has paved the way for a real-world execution engine. We are now building the **Reasoning API**, a system that takes these specifications and:
-
-1.  **Turns human intent into a structured execution plan.**
-2.  **Validates outputs against boundaries and success criteria.**
-3.  **Drastically reduces hallucinations and ensures quality control.**
-
-This puts humans in the driver's seat as intent engineers. The "Current Focus" is no longer just on theory, but on shipping a production-grade platform that brings these ideas to life.
-
-**To get early access and help shape the future of AI development, join the private beta:**
-
-[![Join the Reasoning API Private Beta Waitlist](https://img.shields.io/badge/Join%20the%20Private%20Beta%20Waitlist-►-black?style=for-the-badge&logo=rocket)](https://reasoningapi.io)
-
   
 ## Evolution
 AISpec, built on the What-Boundaries-Success (WBS) Framework, was created by Chris Bora ([@chrisdotbora](https://x.com/chrisdotbora)) and first proposed on December 24, 2024 in this [tweet](https://x.com/chrisdotbora/status/1871689972870152679).
